@@ -1,10 +1,9 @@
-# Boomerang Sales & Cost Analysis Dashboard
+# Power BI Boomerang Sales & Cost Analysis Dashboard
 
 ## Data Integration & Preparation Workflow
-* **Source Merging & Joining:** Consolidated disparate transactional data streams by using a join operation to merge the primary text-based transaction logs (`Merge Sales Data.txt`) with relational sales records (`Merge Sales Data.xlsx`) to establish a unified single source of truth.
-* **Data Cleansing & Modeling:** Harmonized date formats, standardized company nomenclature (*Gel Boomerangs*, *Colorado Boomerangs*, *Tri Fly*), and mapped product SKU records to enable accurate multi-dimensional cross-filtering.
-* **Metric Engineering:** Calculated core financial and operational metrics, including net revenue, direct costs, invoice volumes, and distinct product counts.
-
+* **Source Merging & Joining (Power Query):** Consolidated disparate transactional data streams in Power BI using Power Query join operations to merge primary text-based transaction logs (`Merge Sales Data.txt`) with relational sales records (`Merge Sales Data.xlsx`) into a unified data model.
+* **Data Cleansing & Modeling:** Harmonized date formats, standardized company nomenclature (*Gel Boomerangs*, *Colorado Boomerangs*, *Tri Fly*), and mapped product SKU records to enable dynamic cross-filtering across visuals.
+* **Metric Engineering (DAX):** Calculated core financial and operational metrics in Power BI, including net revenue, direct costs, invoice volumes, and distinct product counts.
 ---
 
 ## Preview 
@@ -20,7 +19,7 @@
 
 ---
 
-## Dashboard Preview & Visual Breakdown
+## Power BI Dashboard Preview & Visual Breakdown
 1. **Executive KPI Summary Cards:**
    * **Total Net Sales:** $283.80K
    * **Total Cost:** $144.73K
